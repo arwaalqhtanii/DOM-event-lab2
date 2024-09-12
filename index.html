@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=div, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <img id="img1" src="data:image/jpeg;base64,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" alt="">
-    </div>
+<html>
 
-    <script src="main.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Change the Channel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+
+</head>
+
+<body>
+  <main class="tv">
+    <h1>Let's see what's on tonight...</h1>
+    <section class="tv-picture-container">
+      <img class="tv-frame" src="https://ga-instruction.s3.amazonaws.com/assets/front-end-web-development/fewd-conditionals-images/tv-container.png">
+      <div class="tv-show" id="screen">
+        <img id="tv-image" src="" alt="something good to watch">
+      </div>
+    </section>
+    <ul class="channels-container">
+      <li class="channel" id="one" onclick="changeChannel(1)">1</li>
+      <li class="channel" id="two" onclick="changeChannel(2)">2</li>
+      <li class="channel" id="three" onclick="changeChannel(3)">3</li>
+      <li class="channel" id="four" onclick="changeChannel(4)">4</li>
+      <li class="channel" id="five" onclick="changeChannel(5)">5</li>
+      <li class="channel" id="six" onclick="changeChannel(6)">6</li>
+      <li class="channel" id="seven" onclick="changeChannel(7)">7</li>
+      <li class="channel" id="eight" onclick="changeChannel(8)">8</li>
+      <li class="channel" id="nine" onclick="changeChannel(9)">9</li>
+    </ul>
+  </main>
+
+
+<script src="main.js"></script>
 </body>
 </html>
